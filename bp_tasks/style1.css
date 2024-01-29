@@ -1,0 +1,145 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+
+h1 {
+    margin: 0; 
+    margin-left: 10px;
+}
+p {
+    margin: 0; 
+    margin-left: 10px; 
+    font-size: small;
+}
+
+nav {
+    display: flex;
+    margin-left: auto;
+}
+
+nav a {
+    color: red;
+    text-decoration: none;
+    padding: 1em;
+    margin: 0 1em;
+    font-weight: bold;
+}
+
+section {
+    padding: 2em;
+}
+header {
+    background-color: white;
+    color: red;
+    padding: 1em;
+    text-align: left; 
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+.logo-container {
+    display: flex;
+    align-items: flex-end;
+}
+
+header img {
+    margin-right: 20px;
+}
+
+
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    
+    background-size: cover;
+    background-position: center;
+    color: white;
+    position: relative; 
+    background-image: url(image/footer\ image.jpg);
+}
+
+.footer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    
+}
+
+.footer-col {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    width: 25%;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+    color: white;
+}
+
+
+
+
+.contact-info {
+    margin-top: 10px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; 
+}
+
+.contact-item img {
+    width: 20px; 
+    height: 20px;
+    margin-right: 5px; 
+}
+
+
+
+
+.contact {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.footer-col.social-icons {
+    text-align: center;
+}
+
+.social-icons-container {
+    margin-top: 10px;
+}
+
+.social-icons-container a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icons-container img {
+    width: 30px; 
+    height: 30px;
+}
+.main-menu{
+    width: 900px;
+    margin: 16px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+img{
+    width: 70px;
+    height: 70px;
+}
+ h2, h3{
+font-family: Arial, Helvetica, sans-serif;
+color: red;
+}
