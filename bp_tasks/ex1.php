@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<?php include 'header.php'?>
+ <h2>Exercise 1: Getting Started with PHP</h2>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercise 1: Getting Started with PHP - Bibek</title>
@@ -51,3 +53,4 @@ echo"<h4>$title</h4>";
 <img src="image/bp.png" alt="web development environment">
 </body>
 </html>
+<?php include 'footer.php'?>

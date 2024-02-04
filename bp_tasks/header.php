@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+   
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bagmati Restaurant</title>
@@ -24,10 +25,11 @@
         
 
         <nav>
-            <a href="ex1.php">exercise1</a>
-            <a href="ex2.php">exercise2</a>
-            <a href="ex3.php">Exercise3</a>
-            <a href="ex4.php">Exercise4</a>
+            <a href="ex1.php">exercise 1</a>
+            <a href="ex2.php">exercise 2</a>
+            <a href="ex3.php">Exercise 3</a>
+            <a href="ex4.php">Exercise 4</a>
+
         </nav>
     </header>
 

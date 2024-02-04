@@ -1,4 +1,5 @@
 <?php include 'header.php' ?>
+<h2>Exercise 2: Create universal header, footer, or sidebar as per your layout done in the previous course.</h2>
 <link rel="stylesheet" href="style1.css">
 
 <div class="main-menu">
